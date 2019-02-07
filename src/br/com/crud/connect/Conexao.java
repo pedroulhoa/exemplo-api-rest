@@ -18,7 +18,7 @@ public class Conexao {
 
 	// Metodo para realizar coneção com o banco de dados
 	public Conexao() throws SQLException, InstantiationException, IllegalAccessException, ClassNotFoundException {
-		String url = "jdbc:mysql://localhost:3306/heptapessoas";
+		String url = "jdbc:mysql://localhost:3306/pessoas";
 		String user = "root";
 		String password = "root";
 
